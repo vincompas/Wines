@@ -1,0 +1,333 @@
+<!doctype html><html><head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<style>
+
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:18px;color:#111;}
+    h1{font-size:20px;margin:0 0 10px;}
+    .meta{color:#555;font-size:13px;margin-bottom:14px;}
+    .toc{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 18px;}
+    .chip{display:inline-block;padding:6px 10px;border-radius:999px;background:#f3f3f3;
+          font-size:12px;text-decoration:none;color:#111;border:1px solid #e6e6e6;}
+    .chip:hover{background:#eaeaea;}
+    .cluster{border:1px solid #e6e6e6;border-radius:14px;padding:14px;margin:14px 0;}
+    .hdr{display:flex;gap:10px;flex-wrap:wrap;align-items:baseline;justify-content:space-between;}
+    .title{font-weight:700;}
+    .badges{display:flex;gap:8px;flex-wrap:wrap}
+    .badge{display:inline-block;padding:3px 8px;border-radius:999px;font-size:12px;background:#f7f7f7;border:1px solid #eee;}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:12px;}
+    .card{border:1px solid #eee;border-radius:12px;padding:10px;background:#fff;}
+    img{max-width:100%;border:1px solid #ddd;border-radius:10px;background:#fafafa;}
+    .cap{font-size:12px;line-height:1.25;margin:8px 0 0;}
+    .cap b{font-weight:700;}
+    .small{font-size:11px;color:#666;word-break:break-all;margin-top:6px;}
+    </style></head><body>
+    
+<h1>Visual clusters report (cross-brand)</h1>
+<div class='meta'>Clusters: 8 • Nodes: 24 • Failed images: 0</div>
+<div class='toc'>
+<a class='chip' href='#c1'>Cluster 1 · 5 nodes · 4 brands</a>
+<a class='chip' href='#c0'>Cluster 0 · 6 nodes · 3 brands</a>
+<a class='chip' href='#c2'>Cluster 2 · 3 nodes · 3 brands</a>
+<a class='chip' href='#c3'>Cluster 3 · 2 nodes · 2 brands</a>
+<a class='chip' href='#c4'>Cluster 4 · 2 nodes · 2 brands</a>
+<a class='chip' href='#c5'>Cluster 5 · 2 nodes · 2 brands</a>
+<a class='chip' href='#c6'>Cluster 6 · 2 nodes · 2 brands</a>
+<a class='chip' href='#c7'>Cluster 7 · 2 nodes · 2 brands</a>
+</div>
+<div class='cluster' id='c1'>
+<div class='hdr'>
+<div class='title'>Cluster 1</div>
+<div class='badges'>
+<span class='badge'>5 nodes</span>
+<span class='badge'>4 edges</span>
+<span class='badge'>w_mean_in: 8.89</span>
+<span class='badge'>4 manufacturers</span>
+</div></div>
+<div class='meta'>Top manufacturers: Имение Сикоры(2), Усадьба Перовских(1), Галицкий и Галицкий(1), Domaine Lipko(1)</div>
+<div class='grid'>
+<div class='card'>
+<img src='img/00009_галицкий рислинг 2.jpg.jpg'>
+<div class='cap'><b>Галицкий и Галицкий</b></div>
+<div class='cap'>Рислинг Красная горка</div>
+<div class='cap'>Рислинг Красная горка | Белое | Тихое | Сухое</div>
+<div class='small'>node: IMG463 · deg_in_cluster: 3</div>
+<div class='small'>path: 457-520/галицкий рислинг 2.jpg</div>
+</div>
+<div class='card'>
+<img src='img/00013_сикоры рислинг 2.jpg.jpg'>
+<div class='cap'><b>Имение Сикоры</b></div>
+<div class='cap'>Рислинг</div>
+<div class='cap'>Рислинг | Белое | Тихое | Сухое</div>
+<div class='small'>node: IMG598 · deg_in_cluster: 2</div>
+<div class='small'>path: 575-630/сикоры рислинг 2.jpg</div>
+</div>
+<div class='card'>
+<img src='img/00016_усадьба перовских рислинг резерв 2.jpg.jpg'>
+<div class='cap'><b>Усадьба Перовских</b></div>
+<div class='cap'>Рислинг</div>
+<div class='cap'>Рислинг | Белое | Тихое | Полусухое</div>
+<div class='small'>node: IMG634 · deg_in_cluster: 1</div>
+<div class='small'>path: 631-683/усадьба перовских рислинг резерв 2.jpg</div>
+</div>
+<div class='card'>
+<img src='img/00014_сикоры семейный резерв рислинг 2.jpg.jpg'>
+<div class='cap'><b>Имение Сикоры</b></div>
+<div class='cap'>Рислинг</div>
+<div class='cap'>Рислинг | Белое | Тихое | Сухое</div>
+<div class='small'>node: IMG581 · deg_in_cluster: 1</div>
+<div class='small'>path: 575-630/сикоры семейный резерв рислинг 2.jpg</div>
+</div>
+<div class='card'>
+<img src='img/00006_липко белый бленд 2.jpg.jpg'>
+<div class='cap'><b>Domaine Lipko</b></div>
+<div class='cap'>White Blend 2021</div>
+<div class='cap'>White Blend 2021 | Белое | Тихое | Полусухое</div>
+<div class='small'>node: IMG448 · deg_in_cluster: 1</div>
+<div class='small'>path: 385-456/липко белый бленд 2.jpg</div>
+</div>
+</div>
+</div>
+<div class='cluster' id='c0'>
+<div class='hdr'>
+<div class='title'>Cluster 0</div>
+<div class='badges'>
+<span class='badge'>6 nodes</span>
+<span class='badge'>5 edges</span>
+<span class='badge'>w_mean_in: 16.59</span>
+<span class='badge'>3 manufacturers</span>
+</div></div>
+<div class='meta'>Top manufacturers: Инкерман(3), Николаев и сыновья(2), Domaine Lipko(1)</div>
+<div class='grid'>
+<div class='card'>
+<img src='img/00015_николаев и сыновья пти мансан 2.jpg.jpg'>
+<div class='cap'><b>Николаев и сыновья</b></div>
+<div class='cap'>Пти Мансан</div>
+<div class='cap'>Пти Мансан | Белое | Тихое | Сладкое</div>
+<div class='small'>node: IMG637 · deg_in_cluster: 3</div>
+<div class='small'>path: 631-683/николаев и сыновья пти мансан 2.jpg</div>
+</div>
+<div class='card'>
+<img src='img/00010_николаев и сыновья СБ (2).jpg.jpg'>
+<div class='cap'><b>Николаев и сыновья</b></div>
+<div class='cap'>Sauvignon Blanc</div>
+<div class='cap'>Sauvignon Blanc | Белое | Тихое | Сухое</div>
+<div class='small'>node: IMG475 · deg_in_cluster: 2</div>
+<div class='small'>path: 457-520/николаев и сыновья СБ (2).jpg</div>
+</div>
+<div class='card'>
+<img src='img/00021_inkerman шардоне (2).jpg.jpg'>
+<div class='cap'><b>Инкерман</b></div>
+<div class='cap'>Winemaker&#x27;s selection Шардоне</div>
+<div class='cap'>Winemaker&#x27;s selection Шардоне | Белое | Тихое | Сухое</div>
+<div class='small'>node: IMG81 · deg_in_cluster: 2</div>
+<div class='small'>path: 77-95/inkerman шардоне (2).jpg</div>
+</div>
+<div class='card'>
+<img src='img/00019_inkerman kokur blan 2.jpg.jpg'>
+<div class='cap'><b>Инкерман</b></div>
+<div class='cap'>Winemaker&#x27;s selection Кокур</div>
+<div class='cap'>Winemaker&#x27;s selection Кокур | Белое | Тихое | Сухое</div>
+<div class='small'>node: IMG79 · deg_in_cluster: 1</div>
+<div class='small'>path: 77-95/inkerman kokur blan 2.jpg</div>
+</div>
+<div class='card'>
+<img src='img/00007_липко грюнер оранж 2.jpg.jpg'>
+<div class='cap'><b>Domaine Lipko</b></div>
+<div class='cap'>Gruner Orange 2021</div>
+<div class='cap'>Gruner Orange 2021 | Белое | Тихое | Сухое</div>
+<div class='small'>node: IMG450 · deg_in_cluster: 1</div>
+<div class='small'>path: 385-456/липко грюнер оранж 2.jpg</div>
+</div>
+<div class='card'>
+<img src='img/00020_inkerman пино нуар (2).jpg.jpg'>
+<div class='cap'><b>Инкерман</b></div>
+<div class='cap'>Winemaker&#x27;s selection Пино Нуар</div>
+<div class='cap'>Winemaker&#x27;s selection Пино Нуар | Красное | Тихое | Полусухое</div>
+<div class='small'>node: IMG83 · deg_in_cluster: 1</div>
+<div class='small'>path: 77-95/inkerman пино нуар (2).jpg</div>
+</div>
+</div>
+</div>
+<div class='cluster' id='c2'>
+<div class='hdr'>
+<div class='title'>Cluster 2</div>
+<div class='badges'>
+<span class='badge'>3 nodes</span>
+<span class='badge'>2 edges</span>
+<span class='badge'>w_mean_in: 6.63</span>
+<span class='badge'>3 manufacturers</span>
+</div></div>
+<div class='meta'>Top manufacturers: Cellar Master(1), Инкерман(1), Валерий Захарьин(1)</div>
+<div class='grid'>
+<div class='card'>
+<img src='img/00005_целар мастерс бастардо бахчисарая 2.jpg.jpg'>
+<div class='cap'><b>Cellar Master</b></div>
+<div class='cap'>Бастардо Бахчисарая</div>
+<div class='cap'>Бастардо Бахчисарая | Красное | Тихое | Сухое</div>
+<div class='small'>node: IMG350 · deg_in_cluster: 2</div>
+<div class='small'>path: 316-384/целар мастерс бастардо бахчисарая 2.jpg</div>
+</div>
+<div class='card'>
+<img src='img/00022_inkerman эритаж саперави (2).jpg.jpg'>
+<div class='cap'><b>Инкерман</b></div>
+<div class='cap'>Эритаж Саперави Классический</div>
+<div class='cap'>Эритаж Саперави Классический | Красное | Тихое | Сухое</div>
+<div class='small'>node: IMG90 · deg_in_cluster: 1</div>
+<div class='small'>path: 77-95/inkerman эритаж саперави (2).jpg</div>
+</div>
+<div class='card'>
+<img src='img/00001_валерий захарьин гевюрцтраминер (1).jpg.jpg'>
+<div class='cap'><b>Валерий Захарьин</b></div>
+<div class='cap'>Гевюрцтраминер</div>
+<div class='cap'>Гевюрцтраминер | Белое | Тихое | Сухое</div>
+<div class='small'>node: IMG1050 · deg_in_cluster: 1</div>
+<div class='small'>path: 1010-1069/валерий захарьин гевюрцтраминер (1).jpg</div>
+</div>
+</div>
+</div>
+<div class='cluster' id='c3'>
+<div class='hdr'>
+<div class='title'>Cluster 3</div>
+<div class='badges'>
+<span class='badge'>2 nodes</span>
+<span class='badge'>1 edges</span>
+<span class='badge'>w_mean_in: 67.24</span>
+<span class='badge'>2 manufacturers</span>
+</div></div>
+<div class='meta'>Top manufacturers: Галицкий и Галицкий(1), Усадьба Дивноморское(1)</div>
+<div class='grid'>
+<div class='card'>
+<img src='img/00003_галицкий балет блан магнум (1).jpg.jpg'>
+<div class='cap'><b>Галицкий и Галицкий</b></div>
+<div class='cap'>Ballet Blanc Красная горка</div>
+<div class='cap'>Ballet Blanc Красная горка | Белое | Тихое | Сухое</div>
+<div class='small'>node: IMG1084 · deg_in_cluster: 1</div>
+<div class='small'>path: 1070-1096/галицкий балет блан магнум (1).jpg</div>
+</div>
+<div class='card'>
+<img src='img/00012_усадьба дивноморское солист 2.jpg.jpg'>
+<div class='cap'><b>Усадьба Дивноморское</b></div>
+<div class='cap'>Солист</div>
+<div class='cap'>Солист | Розовое | Тихое | Сухое</div>
+<div class='small'>node: IMG511 · deg_in_cluster: 1</div>
+<div class='small'>path: 457-520/усадьба дивноморское солист 2.jpg</div>
+</div>
+</div>
+</div>
+<div class='cluster' id='c4'>
+<div class='hdr'>
+<div class='title'>Cluster 4</div>
+<div class='badges'>
+<span class='badge'>2 nodes</span>
+<span class='badge'>1 edges</span>
+<span class='badge'>w_mean_in: 49.77</span>
+<span class='badge'>2 manufacturers</span>
+</div></div>
+<div class='meta'>Top manufacturers: Галицкий и Галицкий(1), Николаев и сыновья(1)</div>
+<div class='grid'>
+<div class='card'>
+<img src='img/00023_галицкий казак магнум (1).jpg.jpg'>
+<div class='cap'><b>Галицкий и Галицкий</b></div>
+<div class='cap'>Cosaque</div>
+<div class='cap'>Cosaque | Красное | Тихое | Сухое</div>
+<div class='small'>node: IMG984 · deg_in_cluster: 1</div>
+<div class='small'>path: 979-1009/галицкий казак магнум (1).jpg</div>
+</div>
+<div class='card'>
+<img src='img/00011_николаев и сыновья рислинг 2.jpg.jpg'>
+<div class='cap'><b>Николаев и сыновья</b></div>
+<div class='cap'>Riesling</div>
+<div class='cap'>Riesling | Белое | Тихое | Сухое</div>
+<div class='small'>node: IMG473 · deg_in_cluster: 1</div>
+<div class='small'>path: 457-520/николаев и сыновья рислинг 2.jpg</div>
+</div>
+</div>
+</div>
+<div class='cluster' id='c5'>
+<div class='hdr'>
+<div class='title'>Cluster 5</div>
+<div class='badges'>
+<span class='badge'>2 nodes</span>
+<span class='badge'>1 edges</span>
+<span class='badge'>w_mean_in: 48.04</span>
+<span class='badge'>2 manufacturers</span>
+</div></div>
+<div class='meta'>Top manufacturers: Cellar Master(1), Шато Тамань(1)</div>
+<div class='grid'>
+<div class='card'>
+<img src='img/00008_целар мастерс мальвазия 2.jpg.jpg'>
+<div class='cap'><b>Cellar Master</b></div>
+<div class='cap'>Мальвазия село Яркое</div>
+<div class='cap'>Мальвазия село Яркое | Белое | Тихое | Сухое</div>
+<div class='small'>node: IMG415 · deg_in_cluster: 1</div>
+<div class='small'>path: 385-456/целар мастерс мальвазия 2.jpg</div>
+</div>
+<div class='card'>
+<img src='img/00018_шато тамань деликат розе 2.jpg.jpg'>
+<div class='cap'><b>Шато Тамань</b></div>
+<div class='cap'>Delicate</div>
+<div class='cap'>Delicate | Розовое | Тихое | Полусухое</div>
+<div class='small'>node: IMG793 · deg_in_cluster: 1</div>
+<div class='small'>path: 727-798/шато тамань деликат розе 2.jpg</div>
+</div>
+</div>
+</div>
+<div class='cluster' id='c6'>
+<div class='hdr'>
+<div class='title'>Cluster 6</div>
+<div class='badges'>
+<span class='badge'>2 nodes</span>
+<span class='badge'>1 edges</span>
+<span class='badge'>w_mean_in: 7.34</span>
+<span class='badge'>2 manufacturers</span>
+</div></div>
+<div class='meta'>Top manufacturers: Фанагория(1), Uppa Winery(1)</div>
+<div class='grid'>
+<div class='card'>
+<img src='img/00017_фанагория декантер саперави 2.jpg.jpg'>
+<div class='cap'><b>Фанагория</b></div>
+<div class='cap'>Декантер Саперави</div>
+<div class='cap'>Декантер Саперави | Красное | Тихое | Сухое</div>
+<div class='small'>node: IMG750 · deg_in_cluster: 1</div>
+<div class='small'>path: 727-798/фанагория декантер саперави 2.jpg</div>
+</div>
+<div class='card'>
+<img src='img/00004_павел швец гевюрцтраминер 2.jpg.jpg'>
+<div class='cap'><b>Uppa Winery</b></div>
+<div class='cap'>Pavel Shvets Gewurztraminer</div>
+<div class='cap'>Pavel Shvets Gewurztraminer | Белое | Тихое | Сухое</div>
+<div class='small'>node: IMG272 · deg_in_cluster: 1</div>
+<div class='small'>path: 237-315/павел швец гевюрцтраминер 2.jpg</div>
+</div>
+</div>
+</div>
+<div class='cluster' id='c7'>
+<div class='hdr'>
+<div class='title'>Cluster 7</div>
+<div class='badges'>
+<span class='badge'>2 nodes</span>
+<span class='badge'>1 edges</span>
+<span class='badge'>w_mean_in: 5.68</span>
+<span class='badge'>2 manufacturers</span>
+</div></div>
+<div class='meta'>Top manufacturers: Temelion(1), Золотая балка(1)</div>
+<div class='grid'>
+<div class='card'>
+<img src='img/00002_темелион блан де блан (1).jpg.jpg'>
+<div class='cap'><b>Temelion</b></div>
+<div class='cap'>Темелион блан де блан 18</div>
+<div class='cap'>Темелион блан де блан 18 | Белое | Игристое | Брют</div>
+<div class='small'>node: IMG1051 · deg_in_cluster: 1</div>
+<div class='small'>path: 1010-1069/темелион блан де блан  (1).jpg</div>
+</div>
+<div class='card'>
+<img src='img/00024_золотая балка балаклава кюве де витмер магнум (1).jpg.jpg'>
+<div class='cap'><b>Золотая балка</b></div>
+<div class='cap'>Кюве Де Витмер</div>
+<div class='cap'>Кюве Де Витмер | Розе | Игристое | Брют</div>
+<div class='small'>node: IMG991 · deg_in_cluster: 1</div>
+<div class='small'>path: 979-1009/золотая балка балаклава кюве де витмер магнум (1).jpg</div>
+</div>
+</div>
+</div>
+</body></html>
