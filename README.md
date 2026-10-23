@@ -5,12 +5,12 @@
 
 Файлы в папке [assets](assets/)
 
-1) похожесть внутри брендов - граф - файл graph_in_brand_clusters_named +
+1) [похожесть внутри брендов](https://katurov.ddns.net/wines/) - граф - файл graph_in_brand_clusters_named +
 2) пары внутри брендов HTML - из интересного Трио в оранжевом - файл in_brand_pairs_html.zip +
-3) кластеры внутри брендов HTML - prototype_catalog.zip +
-5) похожесть между брендами - первый кластер, остальные не особо - файл cross_brand_clusters_report.zip +
+3) [кластеры внутри брендов HTML](https://katurov.ddns.net/wines/prototype_catalog/) - prototype_catalog.zip +
+5) [похожесть между брендами](https://katurov.ddns.net/wines/cross_brand_clusters_report/) - первый кластер, остальные не особо - файл cross_brand_clusters_report.zip +
 ### визуальный код зашитый в этикетки по чему-то в вине
-1) игристое - модель очень хорошо научилась определять из датасета игристое - файл sparkling_visual_report.zip
+1) [игристое](https://katurov.ddns.net/wines/sparkling_visual_report/) - модель очень хорошо научилась определять из датасета игристое - файл sparkling_visual_report.zip
 В переводе на человеческий
 1. Этикетка выглядит “праздничнее” и богачеБольше декоративных элементов, “фактурности”, иногда медальки/печати/орнаменты.
 2. Больше цветных акцентов, но не обязательно “ярче”Скорее акценты (ленты, герб, плашки), чем кричащая палитра. Часто это “премиальные” тона: золото/беж/тёплые оттенки.
